@@ -33,8 +33,25 @@
 
  <br class="clear" />
 
-
+<div class="container">
 <%= yield %>
+</div>
+
+<div class="footer">
+    <div class="container">
+    	<div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote'%>
+      </div>
+      <div class="col-xs-6 footer-blurb ">
+        Proudly made by Flon Jeezus , AKA <a href="https://www.linkedin.com/in/bonjias">Jonathan Bias</a><br />
+        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+      </div>
+
+    </div>
+  </div>
+
+
+
 
 </body>
 </html>
